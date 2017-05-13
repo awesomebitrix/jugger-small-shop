@@ -1,0 +1,33 @@
+.basket-full-item td {
+    vertical-align: top;
+}
+.basket-full-item__name {
+
+}
+.basket-full-item__name a {
+
+}
+.basket-full-item__name img {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+}
+.basket-full-item__name span {
+
+}
+.basket-full-item__price {
+    width: 8rem;
+    font-weight: 700;
+}
+.basket-full-item__price .fa-ruble {
+    font-size: 0.9em;
+}
+.basket-full-item__count {
+    width: 1%;
+}
+.basket-full-item__amount {
+
+}
+.basket-full-item__remove {
+
+}

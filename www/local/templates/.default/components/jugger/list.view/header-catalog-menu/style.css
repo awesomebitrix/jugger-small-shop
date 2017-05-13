@@ -1,0 +1,56 @@
+.catalog-menu {
+    display: block;
+}
+.catalog-menu__item {
+    position: relative;
+    z-index: 1000;
+}
+.catalog-menu__item > .catalog-menu {
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+.catalog-menu__item > .catalog-menu .catalog-menu {
+    left: 100%;
+    top: 0;
+}
+.catalog-menu__item:hover > .catalog-menu {
+    display: block;
+}
+/*
+стили
+ */
+.catalog-menu {
+    background: #008dd2;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.catalog-menu__item {
+    display: inline-block;
+}
+.catalog-menu__item:hover,
+.catalog-menu__item .catalog-menu {
+    background: #007fbd;
+}
+.catalog-menu__item a {
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+.catalog-menu__item a:hover {
+    color: inherit;
+}
+.catalog-menu__item .catalog-menu {
+    top: 100%;
+    width: 300px;
+}
+.catalog-menu__item .catalog-menu__item {
+    width: 100%;
+    border-right: 1px solid #0071a8;
+}
+.catalog-menu__item .catalog-menu__item:hover {
+    background: #0071a8;
+}
+.catalog-menu__item .catalog-menu__item a {
+    padding: 0.5rem;
+}

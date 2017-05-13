@@ -1,0 +1,19 @@
+.item-view-header-basket {
+    display: table;
+    width: 100%;
+    /*margin-bottom: 0.25rem;*/
+    border-bottom: 1px solid #d6d6d6;
+}
+.item-view-header-basket__image {
+    display: table-cell;
+    width: 1%;
+}
+.item-view-header-basket__image img {
+    width: 75px;
+    height: 75px;
+}
+.item-view-header-basket__name {
+    display: table-cell;
+    padding-left: 1rem;
+    vertical-align: middle;
+}

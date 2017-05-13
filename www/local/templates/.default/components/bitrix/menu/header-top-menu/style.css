@@ -1,0 +1,6 @@
+.menu_header-top-menu {
+    font-size: 0.9rem;
+}
+.menu_header-top-menu .nav-link:first-child {
+    padding-left: 0;
+}

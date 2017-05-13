@@ -1,0 +1,67 @@
+.catalog-list-item  {
+    width: 200px;
+    padding: 0.5rem !important;
+    margin-bottom: 1rem;
+    background: #fcfcfc;
+    border: 1px solid #e8e8e8;
+    box-shadow: 1px 3px 5px silver;
+}
+.catalog-list-item__wrap-name {
+    display: block;
+    height: 4.05rem;
+    overflow: hidden;
+}
+.catalog-list-item__name {
+    display: table;
+    height: inherit;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.catalog-list-item__name a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+}
+.catalog-list-item__image {
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: silver;
+    background-size: cover;
+}
+.catalog-list-item__price {
+    overflow: hidden;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+.catalog-list-item__price .fa-ruble {
+    font-size: 0.9em;
+}
+.catalog-list-item__btns {
+}
+.catalog-list-item__btns .btn {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.catalog-list-item__btns .btn:last-child {
+    margin-bottom: 0;
+}
+/*
+
+ */
+@media (min-width: 1000px) {
+    .catalog-list-item {
+        width: 250px;
+    }
+}
